@@ -1,0 +1,35 @@
+@import "commons/Bootstrap";
+@import "commons/extends";
+
+@import "pages/Home";
+@import "pages/Dashboard";
+@import "pages/Login";
+@import "pages/Signup";
+
+@import "components/NavigationBar";
+@import "components/BookList";
+@import "components/BookInsertUI";
+@import "components/Loader";
+@import "components/Notifications";
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('./fonts/roboto/roboto-regular.ttf') format('ttf');
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FCFCFC;
+  overflow: auto;
+}
+
+.grid {
+  max-width: 1400px;
+  padding: 0;
+}
+
+.about-page, .login-page, .signup-page, .not-found { margin-top: 70px }
